@@ -13,10 +13,10 @@
 # The lanugages that messages can be displayed in
 enabled_languages = ["it", "en", "uk", "ru", "zh_cn", "he", "es_mx"]
 # The default language to be set for users whose language cannot be autodetected or whose language is not enabled
-default_language = "it"
+default_language = "en"
 # The language to fallback to if a string is missing in a specific language
 # You should set it to either "it" or "en", other languages may be missing some strings as greed is updated
-fallback_language = "en"
+fallback_language = "uk"
 
 
 # Database parameters
@@ -29,7 +29,7 @@ engine = "sqlite:///database.sqlite"
 # Telegram bot parameters
 [Telegram]
 # Your bot token goes here. Get one from https://t.me/BotFather!
-token = "1612414343:AAGjgFNqfEsUipaGw9r4_iY-qj9QyZRiGdQ"
+token = ""
 # Time in seconds before a conversation (thread) with no new messages expires
 # A lower value reduces memory usage, but can be inconvenient for the users
 conversation_timeout = 7200
